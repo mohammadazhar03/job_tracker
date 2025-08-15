@@ -1,5 +1,5 @@
 import React, { useState, useContext } from "react";
-import { JobContext } from "../context/jobContext";
+import { JobContext } from "../context/JobContext";
 import "../css/job.css";
 
 const JobForm = () => {

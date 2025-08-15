@@ -1,4 +1,4 @@
-import { JobProvider } from "./context/jobContext";
+import { JobProvider } from "./context/JobContext";
 import JobForm from "./components/JobForm";
 import JobList from "./components/JobList";
 import "./css/job.css";
