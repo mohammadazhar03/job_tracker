@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { JobContext } from "../context/JobContext";
+import { JobContext } from "../context/jobContext";
 import JobCard from "./JobCard";
 import "../css/job.css";
 
