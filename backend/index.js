@@ -14,7 +14,7 @@ app.use("/api/jobs", jobRoutes);
 mongoose.connect(process.env.DBURL)
   .then(() => {
     console.log("✅ MongoDB Connected");
-    app.listen(process.env.PORT, () => {
+    app.listen(process.env.PORT, '0.0.0.0', () => {
       console.log(`🚀 Server running on port ${process.env.PORT}`);
     });
   })
