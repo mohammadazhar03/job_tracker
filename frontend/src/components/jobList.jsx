@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { JobContext } from "../context/jobContext.jsx";
-import JobCard from './JobCard.jsx'
+import JobCard from './jobCard.jsx'
 import "../css/job.css";
 
 const JobList = () => {
