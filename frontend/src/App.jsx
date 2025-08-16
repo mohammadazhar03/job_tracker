@@ -1,6 +1,6 @@
 import { JobProvider } from "./context/jobContext";
-import JobForm from "./components/JobForm";
-import JobList from "./components/JobList";
+import JobForm from "./components/JobForm.jsx";
+import JobList from "./components/JobList.jsx";
 import "./css/job.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
