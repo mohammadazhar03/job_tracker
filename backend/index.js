@@ -10,7 +10,7 @@ const app = express();
 // CORS configuration
 const allowedOrigins = [
   "http://localhost:5173", // Vite local dev
-  "https://yourfrontend.netlify.app", // production frontend URL
+  "https://job-trackerapi.netlify.app", // production frontend URL
 ];
 
 app.use(cors({
